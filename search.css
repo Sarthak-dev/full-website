@@ -1,0 +1,24 @@
+.search-bar {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.suggestions {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: none;
+}
+
+.suggestions li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.suggestions li:hover {
+    background-color: #f5f5f5;
+}
+
+.suggestions li.active {
+    background-color: #ccc;
+}
